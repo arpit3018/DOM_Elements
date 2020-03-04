@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://unpkg.com/carbon-components@latest/css/carbon-components.css" />
+  <link rel="stylesheet" href="css/track.css">
+</head>
+
+<body class="bx--body p20">
+  <!-- <img id="img" src="hand.jpg"/>  -->
+ <h1>Virtual Mouse</h1>
+  <div class="mb10">
+    <button  id="trackbutton" class="bx--btn bx--btn--secondary" type="button" disabled>
+      Open Video
+    </button>
+   
+  </div>
+  <video class="videobox canvasbox" autoplay="autoplay" id="myvideo"></video>
+  <canvas id="canvas" class="border canvasbox"></canvas>
+  <div class="mt10">
+    <img src="images/1.jpg" class="canvasbox  hidden" id="handimage" alt="">
+
+  </div>
+
+  <script src="https://unpkg.com/carbon-components@latest/scripts/carbon-components.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handtrackjs@latest/dist/handtrack.min.js"> </script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
